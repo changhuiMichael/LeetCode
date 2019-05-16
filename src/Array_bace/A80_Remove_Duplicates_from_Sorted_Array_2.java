@@ -14,7 +14,7 @@ public class A80_Remove_Duplicates_from_Sorted_Array_2 {
         		
         	}else {
         		nums[res] = nums[i];
-        		res++;
+        		res++;//啊asjhakshdkajhskldhjakljhdsa
         	}
         }
         return res;
