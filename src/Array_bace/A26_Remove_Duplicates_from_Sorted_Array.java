@@ -1,4 +1,4 @@
-package Array;
+package Array_bace;
 
 public class A26_Remove_Duplicates_from_Sorted_Array {
 	class Solution {
