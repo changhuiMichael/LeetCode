@@ -15,7 +15,7 @@ public class A55_A45_JumpGame {
 		
     }
 	
-	//找到跳的步骤最短的策略。（可以看作一颗树结构）
+	//贪婪，后一次的运算可以复用前一次的贪婪运算的结果。
 	public int A45jump(int[] nums) {
 		//从起始位置开始数组内的值加和为nums.length
         if(nums.length < 2) return 0;
